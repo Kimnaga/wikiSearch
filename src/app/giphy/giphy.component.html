@@ -1,0 +1,9 @@
+<p>
+  giphy works!
+</p>
+
+<button (click)=getImage()> Get Image</button>
+
+<div *ngFor ="let url of urlArr">
+  <img src = {{url}} >
+</div>

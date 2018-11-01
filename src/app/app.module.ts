@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WikipediaComponent } from './wikipedia/wikipedia.component';
 import {WikipediaService} from './wikipedia/wikipedia.service';
+import { GiphyComponent } from './giphy/giphy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WikipediaComponent
+    WikipediaComponent,
+    GiphyComponent
   ],
   imports: [
     BrowserModule,
