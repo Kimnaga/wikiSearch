@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { WikipediaComponent } from './wikipedia/wikipedia.component';
 import {WikipediaService} from './wikipedia/wikipedia.service';
 import { GiphyComponent } from './giphy/giphy.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GiphyComponent } from './giphy/giphy.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [WikipediaService],
   bootstrap: [AppComponent]
